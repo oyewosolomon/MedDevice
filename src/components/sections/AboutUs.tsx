@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
-    <section className="relative py-20 bg-gradient-to-r from-blue-500 to-purple-600 overflow-hidden">
+    <section className="relative py-20 bg-gradient-to-r from-blue-500 to-purple-600 overflow-hidden" id="about">
       {/* Floating Circles Animation */}
       <motion.div
         className="absolute top-0 left-0 w-64 h-64 bg-purple-400 rounded-full opacity-20"
@@ -65,7 +65,7 @@ const AboutUs = () => {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <img
-            src="/images/about-us.jpg" // Replace with your image
+            src="/images/about.jpg" // Replace with your image
             alt="About Us"
             className="w-full max-w-md rounded-lg shadow-2xl"
           />

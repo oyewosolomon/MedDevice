@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-8 items-center">
             <a href="#" className="text-gray-700 hover:text-blue-600">
               Home
             </a>
@@ -32,9 +32,12 @@ const Navbar = () => {
             <a href="#testimonials" className="text-gray-700 hover:text-blue-600">
               Testimonials
             </a>
-            <a href="#cta" className="text-gray-700 hover:text-blue-600">
+            <a href="#contact" className="text-gray-700 hover:text-blue-600">
               Contact
             </a>
+            <button className="bg-gradient-to-r from-blue-500 to-purple-600 p-2  text-gray-200 px-8  rounded-lg font-semibold hover:text-white transition">
+              Get Started
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -94,6 +97,9 @@ const Navbar = () => {
               <a href="#cta" className="text-gray-700 hover:text-blue-600">
                 Contact
               </a>
+              <button className="bg-gradient-to-r from-blue-500 to-purple-600 p-2 text-gray-200 px-8  rounded-lg font-semibold hover:bg-gray-100 hover:text-white transition">
+              Get Started
+            </button>
             </div>
           </div>
         )}
