@@ -5,6 +5,16 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        gelasio: ['Gelasio', 'serif'],
+        sans: ['ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
+      fontWeight: {
+        normal: '400',
+        medium: '500',
+        semibold: '600',
+        bold: '700',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

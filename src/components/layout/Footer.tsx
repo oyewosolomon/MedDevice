@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
             <h3 className="text-2xl font-bold mb-4">MedDevice Analytics</h3>
@@ -23,13 +23,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
-          <div>
-            <h4 className="text-xl font-bold mb-4">Contact Us</h4>
-            <p className="text-gray-400">Email: info@meddeviceanalytics.com</p>
-            <p className="text-gray-400">Phone: +1 (123) 456-7890</p>
-            <p className="text-gray-400">Address: 123 Healthcare St, City, Country</p>
-          </div>
 
           {/* Newsletter Signup */}
           <div>

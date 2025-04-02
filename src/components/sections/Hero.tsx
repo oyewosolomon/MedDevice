@@ -73,7 +73,8 @@ const Hero = () => {
       </div>
 
       {/* Scroll Down Indicator */}
-      <motion.div
+      <motion.a
+      href="#features"
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -95,7 +96,7 @@ const Hero = () => {
             />
           </svg>
         </div>
-      </motion.div>
+      </motion.a>
     </section>
   );
 };
