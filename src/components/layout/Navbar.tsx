@@ -27,11 +27,8 @@ const Navbar = () => {
             <a href="#features" className="text-gray-700 hover:text-blue-600">
               Features
             </a>
-            <a href="#stats" className="text-gray-700 hover:text-blue-600">
-              Stats
-            </a>
-            <a href="#testimonials" className="text-gray-700 hover:text-blue-600">
-              Testimonials
+            <a href="#about" className="text-gray-700 hover:text-blue-600">
+              About
             </a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600">
               Contact
